@@ -1,0 +1,16 @@
+{
+  "name": "test-vite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vite.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^5.0.11",
+    "vite-plugin-live-reload": "^3.0.3"
+  }
+}
