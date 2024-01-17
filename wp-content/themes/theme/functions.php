@@ -186,8 +186,10 @@ function blankslate_comment_count($count)
 }
 
 //include app.js file in the theme /assets/js/app.js
-function my_theme_scripts()
-{
-    wp_enqueue_script('app', get_template_directory_uri() . '/assets/js/app.js', array(), '1.0.0', true);
-}
-add_action('wp_enqueue_scripts', 'my_theme_scripts');
+// function my_theme_scripts()
+// {
+//     wp_enqueue_script('app', get_template_directory_uri() . '/assets/js/app.js', array(), '1.0.0', true);
+// }
+// add_action('wp_enqueue_scripts', 'my_theme_scripts');
+
+echo '<script src="http://localhost:3000/assets/js/app.js" />';
